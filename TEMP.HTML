@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .windows-container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.window-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-text{
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Mobile responsive */
+
+@media (max-width:768px){
+
+  .windows-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+  </style>
+  
+</head>
+
+<body>
+  <section class="windows-section">
+
+  <div class="windows-container">
+
+    <!-- Card 1 -->
+    <div class="window-card">
+      <div class="wrapper">
+
+        <div class="inside-content">
+          <img src="indivisual-removebg-preview.png" class="individual-img">
+        </div>
+
+        <div class="door left-door">
+          <div class="shapeup"></div>
+          <div class="shapelow"></div>
+        </div>
+
+        <div class="door right-door">
+          <div class="shapeup"></div>
+          <div class="shapelow"></div>
+        </div>
+
+      </div>
+
+      <h2 class="card-text">For Individuals</h2>
+    </div>
+
+
+    <!-- Card 2 -->
+    <div class="window-card">
+      <div class="wrapper">
+
+        <div class="inside-content">
+          <img src="couple-removebg-preview.png" class="couple-img">
+        </div>
+
+        <div class="door left-door">
+          <div class="shapeup"></div>
+          <div class="shapelow"></div>
+        </div>
+
+        <div class="door right-door">
+          <div class="shapeup"></div>
+          <div class="shapelow"></div>
+        </div>
+
+      </div>
+
+      <h2 class="card-text">For Couples</h2>
+    </div>
+
+
+    <!-- Card 3 -->
+    <div class="window-card">
+      <div class="wrapper">
+
+        <div class="inside-content">
+          <img src="teens-removebg-preview.png" class="teen-img">
+        </div>
+
+        <div class="door left-door">
+          <div class="shapeup"></div>
+          <div class="shapelow"></div>
+        </div>
+
+        <div class="door right-door">
+          <div class="shapeup"></div>
+          <div class="shapelow"></div>
+        </div>
+
+      </div>
+
+      <h2 class="card-text">For Teens</h2>
+    </div>
+
+  </div>
+
+</section>
+</body>
+</html>
